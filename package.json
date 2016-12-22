@@ -1,0 +1,39 @@
+{
+  "name": "CHANGE PROJECT NAME",
+  "version": "1.0.0",
+  "description": "CHANGE DESCRIPTION",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack -d && cp src/index.html dist/index.html && cp -R src/app/img dist/app && webpack-dev-server --content-base src/ --inline --hot",
+    "postinstall": "webpack -p && cp src/index.html dist/index.html && cp -R src/app/img dist/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://YOUR_GITHUB_REPO_HERE"
+  },
+  "author": "YOUR_NAME_EMAIL_AND_GITHUB_PROFILE_HERE",
+  "license": "ISC",
+  "bugs": {
+    "url": "YOUR_BUGS_HTTP_HERE"
+  },
+  "homepage": "YOUR_HOMEPAGE_HTTP_HERE",
+  "devDependencies": {},
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.26.0",
+    "firebase": "^3.6.1",
+    "json-loader": "^0.5.4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "react-router": "^4.0.0-alpha.5",
+    "style-loader": "0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

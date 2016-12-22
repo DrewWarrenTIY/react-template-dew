@@ -6,7 +6,7 @@ This comes with Firebase installed. If using another Database, remove Firebase f
 
 Steps before Use:
 
-Change 'name' in package.json
+Change 'name' in package.json and other noted fields to match your project
 
 Check dependencies in package.json - make sure you aren't missing any or have any extra
 

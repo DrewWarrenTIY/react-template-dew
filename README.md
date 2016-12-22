@@ -17,6 +17,8 @@ run npm install in project directory
 
 Scripts:
 
-npm start = "node server.js",
-npm run dev = "webpack -d && cp src/index.html dist/index.html && cp -R src/app/img dist/app && webpack-dev-server --content-base src/ --inline --hot",
+npm start = "node server.js"
+
+npm run dev = "webpack -d && cp src/index.html dist/index.html && cp -R src/app/img dist/app && webpack-dev-server --content-base src/ --inline --hot"
+
 npm run postinstall = "webpack -p && cp src/index.html dist/index.html && cp -R src/app/img dist/app"

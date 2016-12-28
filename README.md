@@ -1,8 +1,8 @@
 Synopsis
 
-This project creates a template for creating React apps. User should be able to copy this directory and jump right into writing vanilla React with CSS support, fully configured webpack and flushed out .gitignore file.
+This project creates a template for creating React apps. User should be able to copy this directory and jump right into writing vanilla React with CSS support, fully configured webpack, and fleshed-out .gitignore file.
 
-This comes with Firebase installed. If using another Database, remove Firebase from HTML script and package.json dependencies.
+This comes with Firebase installed. If using another Database, remove Firebase from the HTML script and package.json dependencies.
 
 Steps before Use:
 
